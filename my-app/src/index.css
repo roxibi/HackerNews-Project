@@ -6,6 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+ 
 }
 
 code {
@@ -26,12 +27,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+ /*Main.js */ 
 .main{
 height: 70vh;
 width: 70%;
 
   
 }
+
+ /* Header.js */ 
 .header {
   display: flex;
   align-items: center;
@@ -57,4 +62,16 @@ width: 70%;
   display: flex;
   align-items: center;
   justify-content: flex-start;
+}
+
+.logo{
+  margin-right: 3rem;
+}
+
+
+ /* Article.js */ 
+.article-wrapper{
+text-align: left;
+
+
 }
