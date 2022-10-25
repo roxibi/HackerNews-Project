@@ -1,21 +1,15 @@
-import React from 'react'
-import Navbar from './Navbar'
+import React from "react";
+import Navbar from "./Navbar";
 
 function Header() {
   return (
-    <div>
+    <div className="header">
+      <p className="logo">HackerNews</p>
+      <Navbar />
 
-    <p>
-        HackerNews
-    </p>
-        <Navbar />     
-
-
-
-
+      <p className="login">login</p>
     </div>
-
-  )
+  );
 }
 
-export default Header
+export default Header;
