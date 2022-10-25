@@ -1,22 +1,17 @@
-import React from 'react'
-import Article from './Article'
-function Main(props) {
+import React from "react";
+import Article from "./Article";
+import data from "../data.json";
 
-
+function Main() {
   return (
-    
-    <div className='main'>
-        <p>{JSON.stringify(props, null, 2)}</p>
-        <p>Main </p>
-    
-    <Article />
-    <Article />
-    <Article />
-    <Article />
-    <Article />
-    
+    <div className="main">
+      <p>Main</p>
+
+      {data.hits.map(({ title, url, author }) => {
+        return <Article title={title} url={url} author={author} />;
+      })}
     </div>
-  )
+  );
 }
 
-export default Main
+export default Main;
