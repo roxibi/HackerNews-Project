@@ -8,7 +8,7 @@ function Header() {
       <p className="logo">HackerNews</p>
       <Navbar />
       </div>
-      <div className="login">login</div>
+      <div className="login"><a href="#">login</a></div>
     </div>
   );
 }
