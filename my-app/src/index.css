@@ -35,7 +35,7 @@ width: 70%;
 .header {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   width: 70%;
 
 }
@@ -49,6 +49,12 @@ width: 70%;
 }
 
 .login {
+  
+  margin-right: 0;
+}
+
+.header-navbar-flex {
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: flex-start;
 }
