@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
 
-function Article() {
+function Article({ title, url, author }) {
   return (
-    <div>Article</div>
-  )
+    <div className="article-wrapper">
+      <h3>{title}</h3>
+      <h4>{author}</h4>
+      <p>{url}</p>
+    </div>
+  );
 }
 
-export default Article
+export default Article;
