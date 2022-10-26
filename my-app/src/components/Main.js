@@ -8,6 +8,9 @@ function Main() {
   // {data.hits.map(({ title: t, url, author }) => {
   //  return <Article title={t} url={url} author={author} />;
   //  })}
+u
+
+
   return (
     <div className="main">
       <p>Main</p>
