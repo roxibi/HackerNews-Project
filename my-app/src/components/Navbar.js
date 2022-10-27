@@ -1,4 +1,5 @@
 import React from 'react'
+import Comments from "../components/Comments"
 
 function Navbar() {
   return (
@@ -9,8 +10,6 @@ function Navbar() {
         <li className='navbar-item'><a href='#'>jobs</a></li>
         <li className='navbar-item'><a href='#'>submit</a></li>
         </ul>
-
-
 
     </div>
   )
