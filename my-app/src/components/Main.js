@@ -1,6 +1,7 @@
 import React from "react";
 import Article from "./Article";
 import data from "../data.json";
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
 
 function Main() {
