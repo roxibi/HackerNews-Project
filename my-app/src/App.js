@@ -3,6 +3,7 @@ import './App.css';
 import NewsPage from "./NewsPage";
 import Header from "./Header";
 import Footer from "./Footer";
+import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom"
 
 function App() {
   return (
