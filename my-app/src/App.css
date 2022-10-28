@@ -140,6 +140,16 @@ transition-delay: 0.5s;
     margin-bottom: 0px;
     align-content: center;
   }
+  .form{
+    margin: 4%;
+  }
+  .search-result{
+    text-align: left;
+    border :1px solid whitesmoke;
+    padding: 2% 3%;
+    margin:2% 2%;
+  }
+  
 
 @keyframes App-logo-spin {
   from {
