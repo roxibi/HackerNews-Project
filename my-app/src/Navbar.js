@@ -1,5 +1,6 @@
 import React from 'react'
 import Comments from './Comments'
+import Stories from './Stories'
 import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom"
 import App from './App'
 import NewsPage from './NewsPage'
@@ -15,7 +16,7 @@ function Navbar() {
            <Link to="/comments">Comments</Link> 
           </li>
         <li className='navbar-item'>
-          <Link to="/jobs">Jobs</Link>
+          <Link to="/stories">Stories</Link>
         </li>
         <li className='navbar-item'>
         <Link to="/jobs">Submit</Link>
@@ -24,7 +25,7 @@ function Navbar() {
         <Routes>
         <Route path='/comments' element={<Comments />} />
         <Route path='/' element={<NewsPage />} />
-        {/* <Route path='/jobs' element={<Jobs />} /> */}
+         <Route path='/stories' element={<Stories />} /> 
         {/* <Route path='/' element={<App />} /> */}
 
         </Routes>
